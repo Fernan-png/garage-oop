@@ -33,7 +33,7 @@ public class GarageReader {
         Vehicle vehicle2 = vehicleReader.read();
         Vehicle vehicle3 = vehicleReader.read();
 
-        Vehicle[] vehicles = {vehicle1, vehicle2, vehicle3};
+        vehicles = new Vehicle[]{vehicle1, vehicle2, vehicle3};
 
         return new Garage(
                 name,
