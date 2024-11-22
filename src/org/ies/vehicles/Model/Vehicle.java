@@ -19,24 +19,12 @@ public class Vehicle {
         return vehicleType;
     }
 
-    public void setVehicleType(VehicleType vehicleType) {
-        this.vehicleType = vehicleType;
-    }
-
     public int getMaxSpeed() {
         return maxSpeed;
     }
 
-    public void setMaxSpeed(int maxSpeed) {
-        this.maxSpeed = maxSpeed;
-    }
-
     public String getColor() {
         return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
     }
 
     public String getPlate() {
@@ -45,6 +33,18 @@ public class Vehicle {
 
     public void setPlate(String plate) {
         this.plate = plate;
+    }
+
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
+    }
+
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     @Override
@@ -70,4 +70,3 @@ public class Vehicle {
                 '}';
     }
 }
-
